@@ -1,44 +1,31 @@
-# Sentiment Analysis of Amazon Kindle Reviews
+# Emotion Detection in Text
 
 ## Overview
-This project performs sentiment analysis on Amazon Kindle book reviews using Natural Language Processing (NLP) techniques and machine learning models.
+This project focuses on detecting human emotions from text using Natural Language Processing (NLP) techniques and machine learning models.
 
 ## Dataset
-- Amazon Kindle review dataset
-- Features: review text and rating
-- Size: 12,000+ records
+- Text data labeled with emotional categories
+- Preprocessed using tokenization, stopword removal, and lemmatization
 
-## Exploratory Data Analysis
-- Checked missing values
-- Verified data types
-- Identified and removed duplicate records
-
-## Text Preprocessing
-- Tokenization
-- Stopword removal
-- Lemmatization
-- Text normalization
-
-## Feature Engineering
-- Count Vectorizer
-- TF-IDF Vectorization
-
-## Models Used
-- Naive Bayes
-- Machine learning classification models
-
-## Evaluation Metrics
-- Accuracy score
-- Classification report
-- Cross-validation
-
-## Tools & Libraries
+## Technologies Used
 - Python
 - Pandas, NumPy
-- NLTK
+- NLTK / spaCy
 - Scikit-learn
 - Jupyter Notebook
 
-## Conclusion
-The model demonstrates effective sentiment classification of textual reviews and highlights the importance of preprocessing and feature extraction in NLP tasks.
+## Models Implemented
+- Naive Bayes
+- TF-IDF Vectorization
+- Count Vectorizer
 
+## Evaluation
+- Accuracy
+- Classification Report
+- Cross-validation
+
+## Results
+The model achieved satisfactory accuracy in classifying emotions from textual data, demonstrating effective feature extraction and model selection.
+
+2. Install required libraries
+3. Run the notebook step-by-step
